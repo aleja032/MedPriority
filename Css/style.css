@@ -39,7 +39,7 @@ header nav{
     align-items: center;
 }
 .logo i{
-    background-image: url(../img/logo.jpeg);
+    background-image: url(../Img/logo.jpeg);
     width: 20%;
     height: 60%;
     background-size: calc(100%)calc(100%);
