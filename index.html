@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> <!--Libreria de awesone-->
+    <title>MedPriority</title>
+</head>
+<body>
+    <header>
+        <nav class="barra"> <!--barra de navegación-->
+            <div class="cont-logo_name">
+                <div class="logo">
+                    <i></i>
+                    <p class="nombre">MEDPRIORITY</p>
+                </div>
+               <!-- <div class="nombre">MedPriority</div>-->
+            </div>
+            <div class="opciones">
+                <a href="" class="sesion">Iniciar Sesión</a> <!--Boton de sesion-->
+                <a href="" class="opcion1">Agendar Cita</a>
+                <a href="" class="opcion1">Servicios</a>
+                <a href="" class="opcion1">Quienes Somos</a>
+            </div>
+        </nav>
+        <div class="container_verde"> 
+            <div class="cont_doctores">
+                <div class="acomodar3"> <!--para acomodar los signos mas que estan en el fondo-->
+                    <div class="plus3"></div> <!--Contenedor de la imagen -->
+                </div>
+                <div class="acomodar2"> <!--para acomodar los signos mas que estan en el fondo-->
+                    <div class="plus2"></div> <!--Contenedor de la imagen -->
+                </div>
+                    <div class="img"></div> <!--Contenedor de la imagen de doctores-->
+                <div class="acomodar">
+                    <div class="plus"></div>
+                </div>
+            </div>
+            <div class="cont_letras">
+                <h1> ¡ Tú Salud es Primero !</h1>
+                <div class="acomo">
+                    <p>Primer servicio de atención medica que se preocupa por tus comodidades.</p>
+                </div>
+                <div class="cont_boton">
+                    <div class="organizar">
+                        <div class="boton">+ Calidad</div>
+                        <div class="boton">+ Eficiencia</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="box">
+        <h1>Sobre nuestros profesionales</h1>
+        <p>Seleccionamos a los profesionales en nuestra plataforma en función de su experiencia y calidad de atención.       
+            Garantizamos que los doctores y odontólogos sean altamente calificados y brinden atención excepcional a nuestros usuarios.
+        </p>
+    </div>
+    <section class="section1" id="section_1">
+        <div class="Slide1">    
+            <div class="contain_slider">
+                <h1>Medicina General</h1>
+                <div class="cont_arreglar">
+                    <div class="container_letras" id="slider1">
+                        <p class="parrafo_1">Los doctores de medicina general son expertos en diagnosticar, tratar y prevenir una amplia variedad de condiciones médicas, desde resfriados hasta enfermedades crónicas.</p>
+                            <br>
+                            <br>
+                        <p class="parrafo_2">Su enfoque holístico garantiza atención integral para pacientes de todas las edades, derivándolos a especialistas según sea necesario.</p>
+                        <div class="flechas">
+                            <div class="flecha_unido">
+                                <button  id="left"><i class="fa-solid fa-arrow-left-long"></i></button>
+                            <!--  <a href="#slider2" id="derecha"><i class="fa-solid fa-arrow-right-long"></i></a>
+                                <button onclick="llamar()" id="left"><i class="fa-solid fa-arrow-left-long"></i></button>
+
+                        <a href="#slider1" id="left"><i class="fa-solid fa-arrow-left-long"></i></a>--> 
+                            <button onclick="changeSlide(1)" id="derecha"><i class="fa-solid fa-arrow-right-long"></i></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container_boxes">
+                    <div class="caja1"><div class="box1"><i></i> <p>Medicina General</p></div></div> 
+                        <div class="caja2"><div class="box2"><i></i> <p>Odontologia</p></div> </div>
+                </div>
+            </div>
+            </div>
+            <div class="contain_slider">
+                <h1>Odontologia</h1>
+                <div class="cont_arreglar">
+                <div class="container_letras" id="slider2">
+                    
+                    <p class="parrafo_1">Los odontólogos son especialistas en cuidado bucal, desde limpiezas de rutina hasta procedimientos avanzados como implantes dentales. </p>
+                        <br>
+                        <p class="parrafo_2">Su enfoque preventivo y restaurador promueve una buena salud oral y estética dental.
+                    </p> 
+                    <div class="flechas">
+                        <div class="flecha_unido">
+                            <button onclick="changeSlide(-1)" id="left"><i class="fa-solid fa-arrow-left-long"></i></button>
+
+                    <!--    <a href="#slider1" id="left"><i class="fa-solid fa-arrow-left-long"></i></a>--> 
+                            <button  id="derecha"><i class="fa-solid fa-arrow-right-long"></i></button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="container_boxes">
+                   <div class="caja1_2"><div class="box1_2"><i></i> <p>Medicina General</p></div></div> 
+                    <div class="caja2_2"><div class="box2_2"><i></i> <p>Odontologia</p></div> </div>
+                </div>
+            </div>
+            </div>
+
+        </div>
+    </section>
+  <!--  <section class="2">
+        <div class="Slide2">
+            <div class="container_letras">
+                <h2>Odontologia</h2>
+                <p>Los odontólogos son especialistas en cuidado bucal, desde limpiezas de rutina hasta procedimientos avanzados como implantes dentales. 
+
+                    <br>
+                    Su enfoque preventivo y restaurador promueve una buena salud oral y estética dental.
+                </p>
+                <div class="flechas">
+                    <button onclick="llamar()"></button>
+                    <button onclick="llamar()"></button>
+                </div>
+            </div>
+            <div class="container_boxes">
+                <div class="box1_2"></div>
+                <div class="box2_2"></div>
+            </div>
+        </div>
+    </section>
+    -->
+    <section class="section3">
+        <div class="subcontainer">
+            <div class="mision">
+                <div class="sub_mision">
+                    <h1>Misión</h1>
+                        <div class="cont_info"> 
+                            <p> Nuestra misión es ofrecer un acceso rápido y conveniente a la atención médica y odontológica, eliminando las largas esperas y simplificando el proceso de agendamiento de citas. 
+                                <br>
+                                <br>
+                                Nos comprometemos a mejorar la experiencia del paciente, proporcionando un servicio que se adapte a sus necesidades y mejore su bienestar general.
+                            </p>
+                        </div>
+                </div>
+                <div class="cont-img">
+                    <div class="diana"></div>
+                </div>
+            </div>
+           
+                <div class="vision">
+                    <div class="cont-img2">
+                        <div class="number_one"></div>
+                    </div>
+                    <div class="subvision">
+                        <h1>Visión</h1>
+                        <div class="cont_infovision">
+                            <p>
+                                Nos visualizamos como pioneros en la transformación de la atención médica a través de la tecnología donde la comodidad y las necesidades del paciente sean nuestra máxima prioridad.
+                                <br>
+                                <br>
+                                Aspiramos a ser reconocidos como líderes en la industria, creando un entorno donde la atención médica sea accesible, eficiente y centrada en el paciente.    
+                            </p>
+                        </div>
+                    </div>
+                </div>
+           
+        </div>
+    </section>
+    <div class="final">
+        <p>
+            MedPriority, la primera plataforma de citas en línea que prioriza las necesidades y comodidades del paciente; nos enorgullece ofrecer una experiencia integral y accesible en atención médica.
+        </p>
+    </div>
+     <footer id="footer">
+        <div class="foo1">
+            <strong>Nos Ubicamos en:</strong>
+            <p>Centro Tecnologico de la Amazonia</p>
+            <div class="map"><iframe id="gmap_canvas"
+                    src="https://maps.google.com/maps?q=sena+florencia-caqueta&t=&z=11&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
+
+        </div>
+        <div class="foo2">
+            <strong>Horario de atención</strong>
+            <p>Agendamiento de citas de luenes a viernes de 7:00am a 5:00pm</p>
+            <br>
+            <strong>Redes Sociales :</strong>
+            <div class="logosfo">
+                <a href=""><i class="fa-brands fa-facebook" style="color: #6e6e6e;"></i></a>
+                <a href=""><i class="fa-brands fa-instagram" style="color: #6e6e6e;"></i></a>
+                <a href=""><i class="fa-brands fa-twitter" style="color: #6e6e6e;"></i></a>
+            </div>
+
+            <br>
+            <p>© 2024 MedPriority EPS en Liquidación. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+   
+    
+</body>
+
+</html>
+<script>
+    let slideIndex = 0;
+    showSlide(slideIndex); // Inicializa el primer slide
+
+function changeSlide(n) {
+    let slides = document.querySelectorAll('.contain_slider');
+    // Inicia la transición de desvanecimiento del slide actual
+    slides[slideIndex].style.opacity = 0;
+   // slides[slideIndex].style.visibility = 'hidden';
+    slides[slideIndex].style.display = 'none';
+    slides[slideIndex].style.transition = 'opacity 0.5s, visibility 0s 0.5s'; // Aplica transición
+
+    // Calcula el nuevo índice de slide
+    slideIndex += n;
+    if (slideIndex >= slides.length) { slideIndex = 0; }
+    if (slideIndex < 0) { slideIndex = slides.length - 1; }
+    
+    //pequeño retraso para permitir que la transición de opacidad termine
+    setTimeout(() => {
+        showSlide(slideIndex);
+    }, 250); // Alineado con la duración de la transición*/
+}
+
+function showSlide(n) {
+    let slides = document.querySelectorAll('.contain_slider');
+    // Asegura que todos los slides estén ocultos y sin opacidad antes de mostrar el nuevo
+    for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = 'none';
+        slides[i].style.opacity = 0;
+    }
+    
+    // Hace visible el slide activo y comienza la transición de opacidad
+    slides[n].style.display = 'flex';
+    slides[n].style.visibility = 'visible';
+    slides[n].style.opacity = 1;
+    slides[n].style.transition = 'opacity 5s'; // Transición suave para la opacidad
+}
+
+</script>
